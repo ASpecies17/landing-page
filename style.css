@@ -73,6 +73,30 @@ button{
     
 }
 
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+    
+}
 
+h1{
+    width: 950px;
+    font-weight: 200;
+    font-style: italic;
+    
+}
 
+#quote{
+    align-items: end;
+    padding-left: 640px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.popup{
+    
+}
 
