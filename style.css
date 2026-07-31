@@ -5,13 +5,19 @@ body{
 .box{
     height: 200px;
     width: 200px;
-    border: 2px blue dotted;
+    border: 2px #3882F6 solid;
     flex-shrink: 0;
+    border-radius: 15%;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0px 255px;
+    color: white;
+    
     
 }
 
@@ -20,9 +26,12 @@ ul{
     justify-content: space-between;
     gap: 16px;
     list-style-type: none;
+    font-weight: 300;
+    font-size: 200;
 }
 a{
   text-decoration: none;
+  color: white;
 }
 
 img{
@@ -32,13 +41,24 @@ img{
 .awesome {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     height: 200px;
+    justify-content: center;
+    
 }
 
 .container{
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
+    gap: 200px;
+    padding: 60px 0px;
+}
+
+.container-three{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 60px 0px;
 }
 
 .boxes{
@@ -58,6 +78,9 @@ button{
 .random-info{
     display: flex;
     justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 40px;
 }
 
 .box-width{
@@ -79,6 +102,7 @@ button{
     align-items: center;
     height: 500px;
     justify-content: center;
+    background-color: #E5E7EB;
     
 }
 
@@ -127,11 +151,23 @@ h1{
 }
 
 button{
-    border-radius: 15%;
+    border-radius: 10%;
     height: 35px;
     width: 120px;
     outline-color: white;
+    padding: 0;
+}
 
+#button{
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+
+#button-two{
+    font-size: large;
+    font-weight: bold;
+    border: 2px white solid;
 }
 
 .footer{
@@ -139,5 +175,20 @@ button{
     justify-content: center;
     background-color: #1F2937;
     color: white;
-    
+    padding: 20px 0px;
+}
+
+#white{
+    color: white;
+}
+
+.font-size{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.large-font{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
 }
