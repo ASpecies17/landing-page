@@ -77,7 +77,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 350px;
+    height: 500px;
     justify-content: center;
     
 }
@@ -97,6 +97,47 @@ h1{
 }
 
 .popup{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
+.sign-up{
+    display: flex;
+    height: 150px;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.left, .right{
+    padding: 0px 80px;
+}
+
+#bold{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+#white{
+    color: white;
+}
+
+button{
+    border-radius: 15%;
+    height: 35px;
+    width: 120px;
+    outline-color: white;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    
+}
