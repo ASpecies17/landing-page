@@ -1,0 +1,21 @@
+body{
+    
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px blue dotted;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    list-style-type: none;
+}
